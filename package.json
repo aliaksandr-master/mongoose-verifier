@@ -21,20 +21,18 @@
     "schema"
   ],
   "author": "aliaksandr-pasynkau",
-  
-    "license": "MIT",
-  
-  
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/aliaksandr-pasynkau/mongoose-verifier.git"
-    },
-    "bugs": {
-      "url": "https://github.com/aliaksandr-pasynkau/mongoose-verifier/issues"
-    },
-    "homepage": "https://github.com/aliaksandr-pasynkau/mongoose-verifier",
-  
-  "dependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliaksandr-pasynkau/mongoose-verifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliaksandr-pasynkau/mongoose-verifier/issues"
+  },
+  "homepage": "https://github.com/aliaksandr-pasynkau/mongoose-verifier",
+  "dependencies": {
+    "node-verifier-schema": "^1.1.2"
+  },
   "devDependencies": {
     "lodash": "^3.0.1",
     "grunt": "^0.4.5",
